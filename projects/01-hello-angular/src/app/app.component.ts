@@ -8,8 +8,15 @@ import { RouterOutlet } from '@angular/router';
   imports: [CommonModule, RouterOutlet],
   template: `
     <h1>If you are reading this...</h1>
-    <p>Things have worked out well! 🎉</p>
+    <p>Things have worked out well! 🎉</p>    
+    <ol>
+      <li>angular</li>
+      <li>typeScript</li>
+      <li>javaScript</li>
+    </ol>
   `,
-  styles: ``,
+  styles: `ol{
+    list-style-type: upper-roman
+    }`,
 })
 export class AppComponent {}
